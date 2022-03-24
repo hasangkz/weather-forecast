@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: 0;
+}
+body {
+  font-family: 'Open Sans', sans-serif;
+  color: gainsboro;
+  background-image: url(weather.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.5);
+  height: 100vh;
+}
+.header {
+  padding: 100px 50px;
+}
+.header h1 {
+  font-size: 54px;
+  color: rgb(218, 131, 17);
+  font-weight: 1200;
+}
+.header input {
+  width: 80%;
+  padding: 12px;
+  background: transparent;
+  border: 0;
+  outline: 0;
+  border-bottom: 1.5px solid rgb(218, 131, 17);
+  text-align: center;
+  font-size: 16px;
+  color: gainsboro;
+  margin-top: 20px;
+}
+.city {
+  font-size: 42px;
+  font-style: italic;
+  font-weight: 600;
+  margin-bottom: 24px;
+}
+.temp {
+  font-size: 60px;
+  margin-bottom: 10px;
+}
+.desc {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+.minmax {
+  font-size: 16px;
+}
